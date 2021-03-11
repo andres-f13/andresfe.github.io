@@ -4,3 +4,48 @@
     box-sizing: border-box;
     font-family: cursive;
 }
+/* navegacion */
+nav{
+    background: yellow;
+}
+.logo{
+    display: block;
+    margin: auto;
+}
+
+.material-icons{
+    vertical-align: -5px;
+}
+
+.contenedor-menu{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    background: white;
+    max-width: 100%;
+    margin: auto;
+}
+
+.contenedor-menu li a{
+    text-decoration: none;
+    color: #1856d9;
+    padding: 10px;
+    display: block;
+}
+
+.contenedor-menu li{
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+}
+
+.contenedor-menu li a:hover{
+    background: #1856d9;
+    color: yellow;
+}
+
+/* Responsive - adaptado a dispostitivos moviles*/
+
+@media screen and (max-width: 1220px){
+    
+}

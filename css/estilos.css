@@ -46,7 +46,14 @@ nav{
 
 /* scroll */
 
+body::-webkit-scrollbar {
+    width: 7px;
+    background: #000;
+}
 
+body::-webkit-scrollbar-thumb {
+    background: #ff9d00;
+}
 
 /* Responsive - adaptado a dispostitivos moviles*/
 

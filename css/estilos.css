@@ -47,16 +47,22 @@ nav{
 /* scroll */
 
 body::-webkit-scrollbar {
-    width: 7px;
+    width: 10px;
     background: #000;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #ff9d00;
+    background: #ff9000;
 }
 
 /* Responsive - adaptado a dispostitivos moviles*/
 
 @media screen and (max-width: 1220px){
-    
+    img{
+        width: 200px;
+        height: 50px;
+    }
+    .section-2{
+        text-align: center;
+    }
 }

@@ -30,6 +30,8 @@ header{
     background: #000000;
     float: left;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header img {

@@ -24,6 +24,10 @@ body a{
     width: 250px;
     padding-top: 5px;
     margin-left: 100px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
 }
 
 header{
@@ -34,16 +38,15 @@ header{
     margin-right: auto;
 }
 
-header img {
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    float: left;
+
+.espacio {
+    background: lightgrey;
+    width: 50%;
 }
 
 .buscador {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 400px;
+    margin-right: 400px;
     margin-top: 40px;
     float: left;
 }
@@ -84,6 +87,10 @@ header img {
 
 .social a:hover {
     background: #9e9e9e;
+}
+
+.social .material-icons {
+    padding: 2px 3px;
 }
 
 nav{
@@ -209,5 +216,35 @@ iframe {
 }
 
 
-@media screen and (max-width: 1220px){
+@media screen and (max-width: 640px){
+    .buscador {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        float: left;
+    }
+
+    .buscador input {
+        width: 200px;
+    }
+
+    header {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .social a{
+        margin: 0px 5px;
+    }
+
+    iframe {
+        width: auto;
+        height: 640px;
+        margin: auto;
+    }
 }
